@@ -1,4 +1,4 @@
-/*
+/**
 From 0 to 4
 Write a program that prints numbers from 0 to 4 inclusive. Each number must be on a new line.
 

@@ -1,4 +1,4 @@
-/*
+/**
 Analyzing an integer for parity and absolute value
 
 In Java, your task is to create a program that will analyze a given integer and produce two values: Whether the given number is EVEN or ODD, followed by its absolute value. Your program should take a single integer n (-10^3 <= n <= 10^3) as input and print two lines of output: The first line should be either 'EVEN' or 'ODD', depending on the input number, and the second line should be the absolute value of the input number.
