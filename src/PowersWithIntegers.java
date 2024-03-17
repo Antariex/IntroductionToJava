@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 /**
  Calculating square, cube and fourth power of a number
 
@@ -21,6 +19,9 @@ import java.util.Scanner;
  8
  16
  */
+
+import java.util.Scanner;
+
 public class PowersWithIntegers {
     public static void main(String args[]) {
         // Create a Scanner object to read input
