@@ -26,9 +26,11 @@ public class CheckTheSum {
         int numberB = scanner.nextInt();
         int numberC = scanner.nextInt();
 
-        if ((numberA + numberB == 20) || numberA + numberC == 20 || numberB + numberC == 20) {
+        if (numberA + numberB == 20 || numberA + numberC == 20 || numberB + numberC == 20) {
             System.out.println("true");
         }
         else System.out.println("false");
+
+        scanner.close();
     }
 }
