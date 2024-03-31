@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 /**
  Healthy sleep
 
@@ -37,6 +39,18 @@
 public class Healthysleep {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        // start coding here
-    }
+        int inputA = scanner.nextInt(); // Recommended hours
+        int inputB = scanner.nextInt(); // Limit hours
+        int inputH = scanner.nextInt(); // Actual hours
+
+        if (inputH < inputA) {
+            System.out.println("Deficiency");
+        }
+
+        else if (inputH > inputB) {
+                System.out.println("Excess");
+            }
+
+        else System.out.println("Normal");
+        }
 }
