@@ -39,18 +39,17 @@ import java.util.Scanner;
 public class Healthysleep {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int inputA = scanner.nextInt(); // Recommended hours
-        int inputB = scanner.nextInt(); // Limit hours
-        int inputH = scanner.nextInt(); // Actual hours
 
-        if (inputH < inputA) {
+        int recommendedHours = scanner.nextInt(); // Recommended hours
+        int limitHours = scanner.nextInt(); // Limit hours
+        int actualHours = scanner.nextInt(); // Actual hours
+
+        if (actualHours < recommendedHours) {
             System.out.println("Deficiency");
+        } else if (actualHours > limitHours) {
+            System.out.println("Excess");
+        } else {
+            System.out.println("Normal");
         }
-
-        else if (inputH > inputB) {
-                System.out.println("Excess");
-            }
-
-        else System.out.println("Normal");
-        }
+    }
 }
