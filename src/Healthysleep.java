@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 /**
  Healthy sleep
 
@@ -35,6 +33,8 @@ import java.util.Scanner;
  Sample Output 3:
  Deficiency
  */
+
+import java.util.Scanner;
 
 public class Healthysleep {
     public static void main(String[] args) {
