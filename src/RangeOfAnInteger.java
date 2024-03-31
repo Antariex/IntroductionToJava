@@ -32,8 +32,7 @@ public class RangeOfAnInteger {
             System.out.println("LOW");
         } else if (number == 5) {
             System.out.println("MID");
-        }
-        else {
+        } else {
             System.out.println("HIGH");
         }
     }
